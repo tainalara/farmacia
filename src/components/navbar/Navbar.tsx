@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
     return (
         <>
@@ -5,7 +7,7 @@ function Navbar() {
             			bg-[#012d62]  text-white'>
             
                 <div className="container flex justify-between text-lg font-bold">
-                    FARMA TAI
+                <Link to='/home' className="text-2xl font-bold">FARMA TAI</Link>
 
                     <div className='flex gap-4'>
                         Produtos
